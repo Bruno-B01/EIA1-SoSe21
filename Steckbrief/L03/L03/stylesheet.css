@@ -4,7 +4,7 @@ h1 {font-family: sans-serif;
     font-style: italic;
     font-size:150px;
     color:white;
-    border:crimson;
+    border:rgb(223, 81, 16);
     border-width: 5px;
    }
 
@@ -16,8 +16,8 @@ h2 {font-family: sans-serif;
 
 .header {
    text-align:center;
-   background-image:url(../Aufgabe_3/Portfolio/headphones-690685_640.jpg);
-   border: 8px solid crimson;
+   background-image:url(Bilder/orange.PNG);
+   border: 10px solid rgb(223, 81, 16);
    
    border-bottom-left-radius: 200px;
    border-bottom-right-radius:200px;}
@@ -35,11 +35,11 @@ h2 {font-family: sans-serif;
 
 
 
-body {background-image:url(../Aufgabe_3/background/bg.png);
+body {background-image:url(Bilder/bg.png);
       text-align: center;}
 
 video {
-       width: 49%;}
+       width: 60%;}
 
 
 
@@ -54,7 +54,7 @@ video {
 .videos{text-align: center;}
 
 .mydiv1 {
-   background-color:gray;
+   background-color:rgb(0, 0, 0);
    width:fit-content;
    height:30px;
    padding:5px 5px 5px 5px;
@@ -76,7 +76,7 @@ video {
    border:5px;
    font-size: 20px;}
 
-.mydiv1 a:hover{color:crimson}
+.mydiv1 a:hover{color:rgb(223, 81, 16)}
 
 #aboutmepic{
            text-align: center;
@@ -84,7 +84,7 @@ video {
 
 
 
-#opensite {color:crimson}
+#opensite {color:rgb(223, 81, 16)}
 
 #datenschutz {
    color:gray;
