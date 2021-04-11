@@ -1,0 +1,96 @@
+h1 {font-family: sans-serif;
+    text-align: center;
+    font-weight: 1500;
+    font-style: italic;
+    font-size:150px;
+    color:white;
+    border:crimson;
+    border-width: 5px;
+   }
+
+h2 {font-family: sans-serif;
+   text-align: center;
+   font-weight: 1500;
+   font-style: italic;
+   font-size:25px;}
+
+.header {
+   text-align:center;
+   background-image:url(../Aufgabe_3/Portfolio/headphones-690685_640.jpg);
+   border: 8px solid crimson;
+   
+   border-bottom-left-radius: 200px;
+   border-bottom-right-radius:200px;}
+
+.Logos{
+   width:fit-content;
+   padding:20px;
+   margin:-40px 270px;
+   
+}
+.logosEinzeln{
+   opacity:65%;}
+
+.logosEinzeln:hover {opacity:100%;}
+
+
+
+body {background-image:url(../Aufgabe_3/background/bg.png);
+      text-align: center;}
+
+video {
+       width: 49%;}
+
+
+
+
+
+.wrapper {text-align:left;
+          margin:0 auto;
+          width:800px}
+
+
+
+.videos{text-align: center;}
+
+.mydiv1 {
+   background-color:gray;
+   width:fit-content;
+   height:30px;
+   padding:5px 5px 5px 5px;
+   position:fixed;                         
+   top:0;
+   margin-left:600px;
+   border-bottom-right-radius:4px;
+   border-bottom-left-radius:4px;
+
+}
+.mydiv1 a{
+   text-decoration: none;
+   transition-duration:0,5s;  
+   color:white;
+   margin:5px;
+   padding:20px;
+   font-family:sans-serif;
+   border-color:black;
+   border:5px;
+   font-size: 20px;}
+
+.mydiv1 a:hover{color:crimson}
+
+#aboutmepic{
+           text-align: center;
+           }
+
+
+
+#opensite {color:crimson}
+
+#datenschutz {
+   color:gray;
+   font-style:italic;
+   width:fit-content;
+   padding:2px 2px 50px 2px;}
+
+.sizeinput {width:500px;}
+p {font-family:sans-serif;}
