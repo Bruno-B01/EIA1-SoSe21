@@ -11,7 +11,6 @@ h1 {font-family: sans-serif;
 h2 {font-family: sans-serif;
    text-align: center;
    font-weight: 1500;
-   font-style: italic;
    font-size:25px;}
 
 .header {
@@ -63,14 +62,14 @@ video {
    padding:5px 5px 5px 5px;
    position:fixed;                         
    top:0;
-   margin-left:600px;
-   border-bottom-right-radius:4px;
-   border-bottom-left-radius:4px;
+   margin-left:700px;
+   border-bottom-right-radius:5px;
+   border-bottom-left-radius:5px;
 
 }
 .navigation1 a{
    text-decoration: none;
-   transition-duration:0,5s;  
+   transition-duration:0,75s;  
    color:white;
    margin:5px;
    padding:20px;
@@ -83,11 +82,13 @@ video {
 
 #BildSteckbrief{
            width: 20%;
+           align-content: center;
            }
 
 
 #Text{
     font-family: sans-serif;
+    text-align: center;
     }
 
 #opensite {color:rgb(223, 81, 16)}
@@ -98,5 +99,4 @@ video {
    width:fit-content;
    padding:2px 2px 50px 2px;}
 
-.sizeinput {width:500px;}
-p {font-family:sans-serif;}
+
