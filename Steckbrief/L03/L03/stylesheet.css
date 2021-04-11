@@ -2,7 +2,7 @@ h1 {font-family: sans-serif;
     text-align: center;
     font-weight: 1500;
     font-style: italic;
-    font-size:150px;
+    font-size:100px;
     color:white;
     border:rgb(223, 81, 16);
     border-width: 5px;
@@ -24,8 +24,8 @@ h2 {font-family: sans-serif;
 
 .Logos{
    width:fit-content;
-   padding:20px;
-   margin:-40px 270px;
+   padding:30px;
+   margin:-40px 100px;
    
 }
 .logo{
@@ -82,11 +82,13 @@ video {
 .navigation1 a:hover{color:rgb(223, 81, 16)}
 
 #BildSteckbrief{
-           text-align: center;
            width: 20%;
            }
 
 
+#Text{
+    font-family: sans-serif;
+    }
 
 #opensite {color:rgb(223, 81, 16)}
 
