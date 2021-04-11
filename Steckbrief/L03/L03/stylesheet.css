@@ -28,10 +28,10 @@ h2 {font-family: sans-serif;
    margin:-40px 270px;
    
 }
-.logosEinzeln{
+.logo{
    opacity:65%;}
 
-.logosEinzeln:hover {opacity:100%;}
+.logo:hover {opacity:100%;}
 
 
 
@@ -39,7 +39,7 @@ body {background-image:url(Bilder/bg.png);
       text-align: center;}
 
 video {
-       width: 60%;}
+       width: 45%;}
 
 
 
@@ -53,7 +53,10 @@ video {
 
 .videos{text-align: center;}
 
-.mydiv1 {
+
+.bilder{text-align: center;}
+
+.navigation1 {
    background-color:rgb(0, 0, 0);
    width:fit-content;
    height:30px;
@@ -65,7 +68,7 @@ video {
    border-bottom-left-radius:4px;
 
 }
-.mydiv1 a{
+.navigation1 a{
    text-decoration: none;
    transition-duration:0,5s;  
    color:white;
@@ -76,10 +79,11 @@ video {
    border:5px;
    font-size: 20px;}
 
-.mydiv1 a:hover{color:rgb(223, 81, 16)}
+.navigation1 a:hover{color:rgb(223, 81, 16)}
 
-#aboutmepic{
+#BildSteckbrief{
            text-align: center;
+           width: 20%;
            }
 
 
