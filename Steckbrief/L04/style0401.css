@@ -1,0 +1,48 @@
+body {
+    background-image: url(Bilder/bg.png);
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.shell {
+    position: absolute;
+    left: 33%;
+    top: 70%;
+}
+
+.penguin {
+    position:absolute;
+    right: 30%;
+    top: 70%;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 27%;
+    right: 42%;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
