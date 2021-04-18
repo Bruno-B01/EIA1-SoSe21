@@ -2,27 +2,27 @@ body {
     background-image: url(Bilder07/bg.png);
 }
 
-img {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+.wrapper {
+    background-image: url(Bilder07/wrapperbg.png);
+    position:relative;
+    margin:0 auto;
+    top:150px;
+    height:400px;
+    width:600px;
 }
 
-.band{
+.band {
     position:absolute;
     right:0px;
     bottom:0px;
     z-index:10;
  }
 
- .yt_video {
+ .youtube {
     position:absolute;
-    width: 510px;
-    height:265px;
     left:50%;
-    margin-left: -255px;
     top:50%;
+    margin-left: -255px;
     margin-top:-132.5px;
     z-index: 0;
  }
