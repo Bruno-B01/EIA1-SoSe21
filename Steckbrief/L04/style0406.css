@@ -1,0 +1,72 @@
+body {
+    background-image: url(Bilder06/bg.png);
+}
+
+.wrapper {
+    background-image: url(Bilder06/wrapperbg.png);
+    position:relative;
+    margin:0 auto;
+    top:150px;
+    height:400px;
+    width:600px;
+}
+
+.feuer{
+    position:absolute;
+    left:320px;
+    top:25px;
+}
+
+.muschel1{
+    position:absolute;
+    top:85px;
+    left:100px;
+}
+
+.muschel2{
+    position:absolute;
+    top:300px;
+    left:250px;
+}
+
+.muschel3{
+    position:absolute;
+    top:50px;
+    left:475px;
+}
+
+.stern1{
+    position:absolute;
+    bottom:0;
+    left:460px;
+    margin-bottom: 235px;
+}
+
+.stern2{
+    position:absolute;
+    bottom:0;
+    left:150px;
+    margin-bottom: 100px;
+}
+
+.stern3{
+    position:absolute;
+    bottom:0;
+    left:300px;
+    margin-bottom: 250px;
+}
+
+h1 {
+    position:absolute;
+    color:white;
+    left:50px;
+    top:25px;
+}
+
+p {
+    position:absolute;
+    color:white;
+    left:50px;
+    top:150px;
+    font-family:inherit;
+}
