@@ -22,7 +22,7 @@ body {
     position:absolute;
     left:50%;
     top:50%;
-    margin-left: -255px;
+    margin-left:-255px;
     margin-top:-132.5px;
-    z-index: 0;
+    z-index:0;
  }
