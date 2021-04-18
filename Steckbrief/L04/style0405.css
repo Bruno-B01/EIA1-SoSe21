@@ -1,0 +1,42 @@
+body {
+    background-image: url(Bilder05/bg.png);
+}
+
+.wrapper {
+    background-image: url(Bilder05/wrapperbg.png);
+    position:relative;
+    margin:0 auto;
+    top:150px;
+    height:400px;
+    width:600px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.reihe1 {
+    color: black;
+    column-count:3;
+    column-gap: 40px;
+    width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    text-align: center;
+}
+
+.reihe2 {
+    color: black;
+    column-count:2;
+    column-gap: 40px;
+    width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    text-align: center;
+
+}
