@@ -30,10 +30,10 @@ function emissions(continentName, emissions2018, emissions2008) {
     document.querySelector(".continent").innerHTML = continentName;
     document.querySelector(".continentAbsolute").innerHTML = continentName;
     document.querySelector(".emissions2018").innerHTML = emissions2018.toString();
-    document.querySelector(".relativeTotalWorld").innerHTML = Math.round(emissions2018 / entire2018 * 100 * 100) / 100 + "%";
+    document.querySelector(".relativeTotalWorld").innerHTML = Math.round(emissions2018 / Gesamt * 100 * 100) / 100 + "%";
     document.querySelector(".growthRate").innerHTML = Math.round((emissions2018 - emissions2008) / emissions2008 * 100 * 100 / 100) + "%";
     document.querySelector(".growthRateAbsolute").innerHTML = "" + Math.round((emissions2018 - emissions2008) * 100) / 100;
-    document.querySelector(".chart").style.height = Math.round((emissions2018 / entire2018 * 100 * 100) / 100) + "%";
+    document.querySelector(".chart").style.height = Math.round((emissions2018 / Gesamt * 100 * 100) / 100) + "%";
 }
 ;
 //# sourceMappingURL=emission06.js.map
