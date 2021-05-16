@@ -1,0 +1,169 @@
+body {
+    background-color: #000000;
+    height: 100%; 
+    align-items: row;
+    justify-content: center;
+}
+
+.drumMachine {
+    width: 500px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+    #alignment{
+        margin: auto;
+        display: flex;
+    }
+
+    #sample{
+        width: 150px;
+        height: 150px;
+        border-radius: 5%;
+        margin: 2px;
+    }
+
+    #sample:hover{
+        cursor: pointer; 
+    }
+
+.stopAndPlay {
+    opacity: 80%;
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: auto; 
+    color: white;
+}
+
+.stopAndPlay:hover{
+    cursor:pointer;
+    opacity: 100%;
+}
+
+#playbutton{
+    display: block;
+}
+
+#stopbutton{
+    display: none;
+}
+
+.stopbutton {
+    opacity: 80%;
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-top: auto; 
+    color: white;
+    display: none;
+}
+.stopbutton:hover{
+    cursor:pointer;
+    opacity: 100%;
+}
+
+.randomizer {
+    opacity: 80%;
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-top: auto; 
+    color: white;
+}
+
+.randomizer:hover{
+    cursor:pointer;
+    opacity: 100%;
+}
+
+.delete {
+    opacity: 80%;
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-top: auto; 
+    color: white;
+}
+
+.delete:hover{
+    cursor:pointer;
+    opacity: 100%;
+}
+
+    .sample1{
+    
+        background-color: #2669e6;
+    }
+
+    .sample1:hover{
+        background-color: #4ac4ec;
+    }
+
+    .sample2{
+    
+        background-color: #2669e6;
+    }
+
+    .sample2:hover{
+        background-color: #4ac4ec;
+    }
+
+    .sample3{
+    
+        background-color: #2669e6;
+    }
+
+    .sample3:hover{
+        background-color: #4ac4ec;
+    }
+
+    .sample4{
+    
+        background-color: #ff0281;
+    }
+    .sample4:hover{
+        background-color: #f786d1;
+    }
+    .sample5{
+    
+        background-color:#ff0281;
+    }
+    .sample5:hover{
+        background-color: #f786d1;
+    }
+    .sample6{
+    
+        background-color:#ff0281;
+    }
+    .sample6:hover{
+        background-color: #f786d1;
+    }
+    .sample7{
+    
+        background-color:#ff0281;
+    }
+    .sample7:hover{
+        background-color: #f786d1;
+    }
+
+    .sample8{
+    
+        background-color:#ff8800;
+    }
+    .sample8:hover{
+        background-color: #f79869;
+    }
+    .sample9{
+    
+        background-color:#ff8800;
+    }
+    .sample9:hover{
+        background-color: #f79869;
+    }
+    
