@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+}
+
+#toDoApp {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+input {
+    width: 15em;
+    height: 2em;
+    border: none;
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.task01 {
+    width: 364px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.far {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.isHidden {
+    display: none !important;
+}
