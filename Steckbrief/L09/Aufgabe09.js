@@ -1,7 +1,7 @@
 var taskCounter = 0;
 var userinput = document.querySelector("#addTask");
-userinput.addEventListener("keypress", function (keyboardEvent) {
-if (keyboardEvent.key == "Enter") {
+userinput.addEventListener("keydown", function (e) {
+if (e.key == "Enter") {
     var inputTask = new Text(userinput.value);
     taskCounter = taskCounter + 1;
     document.querySelector("h3").innerHTML = taskCounter + " in total";

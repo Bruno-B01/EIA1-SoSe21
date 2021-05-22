@@ -1,9 +1,9 @@
 let taskCounter: number = 0;
 let userinput: HTMLInputElement = document.querySelector("#addTask") as HTMLInputElement;
 
-userinput.addEventListener("keypress", function (keyboardEvent: KeyboardEvent): void {
+userinput.addEventListener("keydown", function (e): void {
 
-if (keyboardEvent.key == "Enter") {
+if (e.key == "Enter") {
 
     let inputTask: Text = new Text(userinput.value);
     taskCounter = taskCounter + 1;
