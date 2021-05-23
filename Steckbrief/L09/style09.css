@@ -1,21 +1,21 @@
 body {
-    background-color: grey;
+    background-color: rgb(170, 170, 170);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #toDoApp {
     position: absolute;
-    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 50px;
     text-align: center;
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     font-weight: lighter;
 }
 
 h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
 }
 
