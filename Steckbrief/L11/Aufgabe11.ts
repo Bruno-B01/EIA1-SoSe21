@@ -77,9 +77,6 @@ window.addEventListener("load", function (): void {
 
                 }).then(function (): void {
                     artyom.say("Sage erstelle einen neuen Eintrag");
-
-
-
                     console.log("Spracheingabe bereit");
                 });
             },
