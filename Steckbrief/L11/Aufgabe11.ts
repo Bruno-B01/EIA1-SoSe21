@@ -44,21 +44,21 @@ var counterDOMElementDone: HTMLElement;
 */
 
 window.addEventListener("load", function (): void {
-    const artyom: any = new Artyom();
+    var artyom: any = new artyom();
 
     artyom.addCommands({
-        indexes: ["erstelle eine Aufgabe *"],
+        indexes: ["erstelle einen neuen Eintrag *"],
         smart: true,
         action: function (i: any, wildcard: string): void {
-            console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            console.log("Neuer Eintrag wird erstellt: " + wildcard);
             toDoTaskArray.unshift({
                 todosText: wildcard,
                 todosChecked: false
             });
 
             drawListToDOM();
-            console.log("Aufgabe  " + wildcard + " wird hinzugefügt");
-            artyom.say("Aufgabe" + wildcard + " wurde hinzugefügt.");
+            console.log("Eintrag  " + wildcard + " wird hinzugefügt");
+            artyom.say("Eintrag " + wildcard + " wurde hinzugefügt.");
         }
     });
 
@@ -76,7 +76,7 @@ window.addEventListener("load", function (): void {
                     debug: true
 
                 }).then(function (): void {
-                    artyom.say("Sage erstelle eine Aufgabe");
+                    artyom.say("Sage erstelle einen neuen Eintrag");
 
 
 
@@ -87,7 +87,7 @@ window.addEventListener("load", function (): void {
     }
 
     document.querySelector("#mic").addEventListener("click", function (): void {
-        artyom.say("Sage erstelle eine Aufgabe");
+        artyom.say("Sage erstelle einen Eintrag");
         startContinuousArtyom();
     });
 
