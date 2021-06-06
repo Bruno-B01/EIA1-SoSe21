@@ -1,10 +1,10 @@
 window.addEventListener("load", function () {
     var artyom = new Artyom();
     artyom.addCommands({
-        indexes: ["erstelle Aufgabe *"],
+        indexes: ["erstelle einen Eintrag *"],
         smart: true,
         action: function (i, wildcard) {
-            console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            console.log("Neuer Eintrag wird erstellt: " + wildcard);
         }
     });
     function startContinuousArtyom() {
@@ -17,10 +17,10 @@ window.addEventListener("load", function () {
                 interimResults: true,
                 debug: true
             }).then(function () {
-                console.log("Ready!");
+                console.log("Spracheingabe bereit");
             });
         }, 250);
     }
     startContinuousArtyom();
 });
-//# sourceMappingURL=playgroud-artyom-script.js.map
+//# sourceMappingURL=playground-artyom-script.js.map

@@ -4,10 +4,10 @@ window.addEventListener("load", function(): void {
     const artyom: any = new Artyom();
     
     artyom.addCommands({
-        indexes: ["erstelle Aufgabe *"],
+        indexes: ["erstelle einen Eintrag *"],
         smart: true,
         action: function(i: any, wildcard: string): void {
-            console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            console.log("Neuer Eintrag wird erstellt: " + wildcard);
         }
     });
     
@@ -23,7 +23,7 @@ window.addEventListener("load", function(): void {
                     interimResults: true,
                     debug: true
                 }).then(function(): void {
-                    console.log("Ready!");
+                    console.log("Spracheingabe bereit");
                 });
             }, 
             250);

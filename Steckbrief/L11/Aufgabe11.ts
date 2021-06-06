@@ -84,7 +84,7 @@ window.addEventListener("load", function (): void {
     }
 
     document.querySelector("#mic").addEventListener("click", function (): void {
-        artyom.say("Sage erstelle einen Eintrag");
+        artyom.say("Sage erstelle einen neuen Eintrag");
         startContinuousArtyom();
     });
 
