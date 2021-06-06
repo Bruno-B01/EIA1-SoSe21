@@ -21,18 +21,12 @@
       * Variablen deklariert, die später die entsprechenden DOM-Elemente
       * speichern.
       */
-     var inputDOMElement;
-     var addButtonDOMElement;
-     var todosDOMElement;
-     var counterDOMElement;
-     var counterDOMElementOpen;
-     var counterDOMElementDone;
      /**
       * Sobald der DOM geladen wurde können grundlegende DOM-Interaktionen
       * initialisiert werden
       */
      window.addEventListener("load", function () {
-        var artyom = new artyom();
+        var artyom = new Artyom();
         artyom.addCommands({
             indexes: ["erstelle einen neuen Eintrag *"],
             smart: true,
@@ -66,6 +60,12 @@
             artyom.say("Sage erstelle einen neuen Eintrag");
             startContinuousArtyom();
         });
+        var inputDOMElement;
+        var addButtonDOMElement;
+        var todosDOMElement;
+        var counterDOMElement;
+        var counterDOMElementOpen;
+        var counterDOMElementDone;
          /**
           * Jetzt da der DOM verfügbar ist können die wichtigsten Elemente
           * in ihre Variablen gespeichert werden, um später auf sie
