@@ -223,5 +223,5 @@
           */
          drawListToDOM();
      }
- })(Aufgabe_10 || (Aufgabe_10 = {}));
+ })(Aufgabe_11 || (Aufgabe_11 = {}));
  //# sourceMappingURL=Aufgabe11.js.map
