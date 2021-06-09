@@ -27,6 +27,33 @@
       */
      window.addEventListener("load", function () {
         var artyom = new Artyom();
+        var inputDOMElement;
+        var addButtonDOMElement;
+        var todosDOMElement;
+        var counterDOMElement;
+        var counterDOMElementOpen;
+        var counterDOMElementDone;
+         /**
+          * Jetzt da der DOM verfügbar ist können die wichtigsten Elemente
+          * in ihre Variablen gespeichert werden, um später auf sie
+          * zugreifen zu können
+          */
+         inputDOMElement = document.querySelector("#inputTodo");
+         addButtonDOMElement = document.querySelector("#addButton");
+         todosDOMElement = document.querySelector("#todos");
+         counterDOMElement = document.querySelector("#counter");
+         counterDOMElementOpen = document.querySelector("#open");
+         counterDOMElementDone = document.querySelector("#done");
+         /**
+          * Jetzt da der DOM verfügbar ist kann auch ein Event-Listener
+          * auf den AddToDo Button gesetzt werden.
+          */
+         addButtonDOMElement.addEventListener("click", addTodo);
+         /**
+          * Initial soll einmal die Liste an bereit definierten ToDos
+          * aus den Arrays in den DOM gezeichnet werden.
+          */
+         drawListToDOM();
         artyom.addCommands({
             indexes: ["erstelle einen neuen Eintrag *"],
             smart: true,
@@ -60,33 +87,6 @@
             artyom.say("Sage erstelle einen neuen Eintrag");
             startContinuousArtyom();
         });
-        var inputDOMElement;
-        var addButtonDOMElement;
-        var todosDOMElement;
-        var counterDOMElement;
-        var counterDOMElementOpen;
-        var counterDOMElementDone;
-         /**
-          * Jetzt da der DOM verfügbar ist können die wichtigsten Elemente
-          * in ihre Variablen gespeichert werden, um später auf sie
-          * zugreifen zu können
-          */
-         inputDOMElement = document.querySelector("#inputTodo");
-         addButtonDOMElement = document.querySelector("#addButton");
-         todosDOMElement = document.querySelector("#todos");
-         counterDOMElement = document.querySelector("#counter");
-         counterDOMElementOpen = document.querySelector("#open");
-         counterDOMElementDone = document.querySelector("#done");
-         /**
-          * Jetzt da der DOM verfügbar ist kann auch ein Event-Listener
-          * auf den AddToDo Button gesetzt werden.
-          */
-         addButtonDOMElement.addEventListener("click", addTodo);
-         /**
-          * Initial soll einmal die Liste an bereit definierten ToDos
-          * aus den Arrays in den DOM gezeichnet werden.
-          */
-         drawListToDOM();
      });
      function drawListToDOM() {
          // alle todos erst einmal aus dem DOM löschen
